@@ -1,0 +1,137 @@
+:root{
+    --color1 : dodgerblue;
+    --color2 : lightskyblue;
+    --color3 : white;
+    --color4 : black;
+    --color5 : springgreen;
+    --color6 : orangered;
+    --color7 : gold;
+}
+
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.main{
+    width : 80%;
+    margin: 5em auto;
+    padding: 1em;
+    border-radius: 0.5em;
+    background-color: var(--color1);
+
+    display: flex;
+    flex-direction: column;
+}
+
+.head{
+    background-color: var(--color2);
+    border-radius: 0.5em;
+    padding: 0.5em;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.head h3{
+    color: var(--color3);
+}
+
+.head a{
+    text-decoration: none;
+    font-weight: bold;
+    color: var(--color3);
+    background-color: var(--color5);
+    padding: 0.33em 0.5em;
+    border-radius: 0.33em;
+    border: 0.15em solid var(--color4);
+}
+
+table{
+    border-collapse: collapse;
+    border-radius: 0.5em;
+    width: 100%;
+    margin: 1em 0 0 0;
+}
+table th{
+    background-color: var(--color2);
+    color: var(--color3);
+    padding: 0.33em;
+    text-align: left;
+}
+table td{
+    background-color: var(--color3);
+    color: var(--color4);
+    font-size: 1.1em;
+}
+table a{
+    text-decoration: none;
+    font-weight: bold;
+    color: var(--color3);
+    background-color: var(--color1);
+    padding: 0.33em;
+    margin: 0.22em auto;
+    border-radius: 0.33em;
+    border: 0.15em solid var(--color4);
+    display: inline-block;
+}
+
+form{
+    background-color: var(--color2);
+    margin: 1em 0 0 0;
+    padding: 1em;
+    border-radius: 0.5em;
+}
+form label{
+    font-size: 1.3em;
+    margin-top: 2em;
+}
+form input[type=text]{
+    width: 80%;
+    padding: 0.5em 1em 0.5em 0.5em;
+    font-size: 1.2em;
+    margin: 0.33em 0 1em 0;
+    border-radius: 0.33em;
+    border: none;
+}
+form input[type=number]{
+    width: 80%;
+    padding: 0.5em 1em 0.5em 0.5em;
+    font-size: 1.2em;
+    margin: 0.33em 0 1em 0;
+    border-radius: 0.33em;
+    border: none;
+}
+form button{
+    padding: 0.88em 1.33em;
+    font-size: 1em;
+    font-weight: bold;
+    border: 0.15em solid var(--color4);
+    border-radius: 0.33em;
+}
+
+.btn-save{
+    background-color: var(--color5);
+    color: var(--color3);
+}
+.btn-delete{
+    background-color: var(--color6);
+    color: var(--color3);
+}
+.btn-edit{
+    background-color: var(--color7);
+    color: var(--color3);
+}
+table form{
+    display: inline;
+    background-color: var(--color7);
+    margin: 0em;
+    padding: 0em;
+    border: 0em;
+}
+table .del-btn{
+    background-color: var(--color6);
+    color: var(--color3);
+    padding: 0.33em;
+}
